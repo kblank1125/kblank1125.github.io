@@ -18,20 +18,27 @@
 
 
 
-<!-- ///////////////////  START BODY //////////////////////////////////// -->
+<!-- ///////////////////  BODY //////////////////////////////////// -->
 
 <body>
 
 <!--Vaga embed, with notes for what is going on -->
   <div class="chart" id="firstChart">
+
       <script>
+        // Following the script tag we are using Javascript. line above changing to javascript
+        // One way to tell is to see how comments work...
+        // First job is to set the chart as a JS variable:
         var myChart1 = "chart1_covidUKRegions.json";
+        // Now we simply insert it, using Vega's embed code:
+        // The embed function needs to be told the location, and what to put there. location (case sensitive) then what to put 
         vegaEmbed('#firstChart', myChart1);
       </script>
+
   </div>
 
-
 </body>
-<!-- ///////////////////  END BODY //////////////////////////////////// -->
+
+<!-- ///////////////////  BODY //////////////////////////////////// -->
 
 </html>
