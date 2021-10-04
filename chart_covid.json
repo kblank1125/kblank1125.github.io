@@ -3,8 +3,8 @@
     
     "title": {
       "text": "Covid Cases in the UK",
-      "subtitle":"My first chart using API",
-      "subtitleFontStyle":"italic",
+      "subtitle":"Covid chart using downloaded data",
+      "subtitleFontStyle":"Serif",
       "subtitleFontSize":10,
       "anchor": "start",
       "color": "black"
