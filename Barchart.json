@@ -1,6 +1,35 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple bar chart with embedded data.",
+    
+    {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple bar chart with embedded data.",
+
+    "title": {
+        "text": "Sales of my imaginary shop",
+        "subtitle":"My first chart using my data manually typed in",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+
+    "data": {
+      "values": [
+        {"Months": "Jan", "Sales": 128}, {"Months": "Feb", "Sales": 329}, {"Months": "Mar", "Sales": 257},
+        {"Months": "Apr", "Sales": 278}, {"Months": "May", "Sales": 203}, {"Months": "Jun", "Sales": 196}
+        
+      ]
+    },
+    "mark": "bar",
+    "encoding": {
+      "x": {"field": "Months", "type": "nominal", "axis": {"labelAngle": 0}},
+      "y": {"field": "Sales", "type": "quantitative"}
+    }
+  }
+  
+    
     "data": {
       "values": [
         {"Months": "Jan", "Sales": 128}, {"Months": "Feb", "Sales": 329}, {"Months": "Mar", "Sales": 257},
