@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Bitcoin price in £ starting in Oct 1.",
+  
+    "data": {"url": "https://rest.coinapi.io/v1/ohlcv/BTC/GBP/history?period_id=12HRS&time_start=2021-10-01T00:00:00&limit=100&include_empty_items=false&apikey=0C9F4726-643D-472A-8379-45CC2490BB76"},
+   
+    "mark": "line",
+    "encoding": {
+      "x": {"field": "time_period_start", "type": "temporal", "title": "Date"},
+      "y": {"field": "price_high", "type": "quantitative", "title": "Highest price"}
+    }
+  }
