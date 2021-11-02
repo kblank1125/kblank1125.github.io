@@ -1,6 +1,15 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Barchart showing the number of penalties taken by top scorers in UEFA Champions League 2021/22",
+        
+    "title": {
+      "text": "Number of penalties scored by top scorers",
+      "subtitle":"UEFA Champions League 2021/22",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+        
     "data": {"url": "https://app.sportdataapi.com/api/v1/soccer/topscorers?apikey=49a3c900-34be-11ec-bb50-bb95361d934c&league_id=281&season_id=1959",
           "format":{
         "type": "json",
