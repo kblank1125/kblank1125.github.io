@@ -24,3 +24,15 @@ h1, h3, p{
     border-color: black;
 }
 
+a:link {
+    color: rgb(235, 64, 52);
+}
+a:visited {
+    color: rgb(61, 252, 23);
+}
+a:hover {
+    color: hotpink;
+}
+a:active{
+    color: rgb(15, 245, 252)
+}
