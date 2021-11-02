@@ -9,6 +9,7 @@
       "subtitleFontSize":10,
       "anchor": "start",
       "color": "black"
+    },
         
     "data": {"url": "https://app.sportdataapi.com/api/v1/soccer/topscorers?apikey=49a3c900-34be-11ec-bb50-bb95361d934c&league_id=281&season_id=1959",
           "format":{
