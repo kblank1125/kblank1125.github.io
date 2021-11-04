@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "US 10 year breakeven inflation rate.",
+
+  "title": {
+    "text": "US 10 year breakeven inflation rate",
+    "subtitle":"starting from 2003",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "height":300,
+  "width":280,
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_FRED-T10YIE.json",
+    "format":{
+      "type":"json",
+      "property":"observations"}},
+
+
+
+  
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "scale":{"domain":["2003","2022"]}, "title" :"Year"},
+    "y": {"field": "value", "type": "quantitative", "scale":{"domain":[0,3]}, "title": "Rate"}
+  }
+}

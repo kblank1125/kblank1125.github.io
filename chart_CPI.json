@@ -1,0 +1,32 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "China CPI.",
+
+  "title": {
+    "text": "China's Consumer Price Index",
+    "subtitle":"starting from 1993",
+    "subtitleFontStyle":"italic",
+    "subtitleFontSize":10,
+    "anchor": "start",
+    "color": "black"
+  },
+
+  "height":300,
+  "width":280,
+
+  "data": {
+    "url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_FRED-CHNCPIALLMINMEI.json",
+    "format":{
+      "type":"json",
+      "property":"observations"}},
+  
+  "mark":{
+    "type": "line",
+    "color": "red"},
+
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "scale":{"domain":["1993","2022"]}, "title" :"Year"},
+    "y": {"field": "value", "type": "quantitative", "title": "Rate"}
+  }
+}
