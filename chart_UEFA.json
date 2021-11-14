@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "UEFA champions",
+  
+    "title":{
+       "text": "UEFA champions",
+        "subtitle":"",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+  
+    "data": {
+      "url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/UEFA_winner.csv"
+    },
+   
+   "height": 300,
+   "width":280,
+  
+    "mark":{
+      "type": "bar",
+      "color": "rgb(237, 75, 66)"},
+  
+    "encoding": {
+      "x": {"field": "Title(s)", "type": "quantitative", "axis": {"labelAngle": 0}, "title":"Number of titles won"},
+      "y": {"field": "Club", "type": "nominal"}
+    }
+  }
