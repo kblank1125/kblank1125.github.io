@@ -11,12 +11,13 @@
         "color": "black"
       },
   
+    "height": 300,
+    "width":280,
+  
     "data": {
       "url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/UEFA_winner.csv"
     },
    
-   "height": 300,
-   "width":280,
   
     "mark":{
       "type": "bar",
