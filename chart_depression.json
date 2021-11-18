@@ -1,0 +1,30 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "People aged 16 to 39 suffering moderate to severe symptoms of depression.",
+    "title":{
+         "text": "Aged 16 to 39 suffering depression",
+          "subtitle":"Moderate to severe symptoms before, during and after Covid-19",
+          "subtitleFontStyle":"italic",
+          "subtitleFontSize":10,
+          "anchor": "start",
+          "color": "black"
+        },
+  
+    "height": 300,
+    "width":280,
+  
+    "data": {
+      "values": [
+        {"a": "07-01-2019", "b": 11}, {"a": "06-01-2020", "b": 31}, {"a": "11-01-2020", "b": 26},
+        {"a": "03-01-2021", "b": 29}, {"a": "08-01-2021", "b": 23}    ]
+    },
+    "mark":{
+      "type": "line",
+      "color":"red"
+    }, 
+    "encoding": {
+      "x": {"field": "a", "type": "temporal", "axis": {"labelAngle": 0, "grid":false}, "title": "Time"},
+      "y": {"field": "b", "type": "quantitative", "title":"Percentage", "scale":{"domain":[10, 35]}}
+    }
+  }
+  
