@@ -1,0 +1,997 @@
+[
+  {
+    "country": "Netherlands",
+    "meanHeightMale": "183.7824",
+    "meanHeightFemale": "170.3612"
+  },
+  {
+    "country": "Montenegro",
+    "meanHeightMale": "183.3022",
+    "meanHeightFemale": "169.9609"
+  },
+  {
+    "country": "Estonia",
+    "meanHeightMale": "182.7907",
+    "meanHeightFemale": "168.6628"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "meanHeightMale": "182.4740",
+    "meanHeightFemale": "167.4704"
+  },
+  {
+    "country": "Iceland",
+    "meanHeightMale": "182.1016",
+    "meanHeightFemale": "168.9135"
+  },
+  {
+    "country": "Denmark",
+    "meanHeightMale": "181.8927",
+    "meanHeightFemale": "169.4706"
+  },
+  {
+    "country": "Czech Republic",
+    "meanHeightMale": "181.1866",
+    "meanHeightFemale": "167.9635"
+  },
+  {
+    "country": "Latvia",
+    "meanHeightMale": "181.1711",
+    "meanHeightFemale": "168.8066"
+  },
+  {
+    "country": "Slovakia",
+    "meanHeightMale": "181.0155",
+    "meanHeightFemale": "167.1228"
+  },
+  {
+    "country": "Slovenia",
+    "meanHeightMale": "180.9774",
+    "meanHeightFemale": "167.1976"
+  },
+  {
+    "country": "Ukraine",
+    "meanHeightMale": "180.9760",
+    "meanHeightFemale": "166.6227"
+  },
+  {
+    "country": "Croatia",
+    "meanHeightMale": "180.7589",
+    "meanHeightFemale": "166.8031"
+  },
+  {
+    "country": "Serbia",
+    "meanHeightMale": "180.7387",
+    "meanHeightFemale": "168.2851"
+  },
+  {
+    "country": "Lithuania",
+    "meanHeightMale": "180.7233",
+    "meanHeightFemale": "167.6299"
+  },
+  {
+    "country": "Poland",
+    "meanHeightMale": "180.6864",
+    "meanHeightFemale": "165.7761"
+  },
+  {
+    "country": "Finland",
+    "meanHeightMale": "180.5694",
+    "meanHeightFemale": "166.4751"
+  },
+  {
+    "country": "Norway",
+    "meanHeightMale": "180.4752",
+    "meanHeightFemale": "166.4483"
+  },
+  {
+    "country": "Sweden",
+    "meanHeightMale": "180.4567",
+    "meanHeightFemale": "166.6739"
+  },
+  {
+    "country": "Germany",
+    "meanHeightMale": "180.2812",
+    "meanHeightFemale": "166.1773"
+  },
+  {
+    "country": "Dominica",
+    "meanHeightMale": "180.1526",
+    "meanHeightFemale": "166.8885"
+  },
+  {
+    "country": "Bermuda",
+    "meanHeightMale": "179.7191",
+    "meanHeightFemale": "166.1101"
+  },
+  {
+    "country": "Puerto Rico",
+    "meanHeightMale": "179.4821",
+    "meanHeightFemale": "163.0573"
+  },
+  {
+    "country": "Greece",
+    "meanHeightMale": "179.2598",
+    "meanHeightFemale": "165.8131"
+  },
+  {
+    "country": "Belgium",
+    "meanHeightMale": "179.0933",
+    "meanHeightFemale": "163.4017"
+  },
+  {
+    "country": "Ireland",
+    "meanHeightMale": "179.0394",
+    "meanHeightFemale": "164.4969"
+  },
+  {
+    "country": "Lebanon",
+    "meanHeightMale": "178.9571",
+    "meanHeightFemale": "163.6705"
+  },
+  {
+    "country": "Andorra",
+    "meanHeightMale": "178.8426",
+    "meanHeightFemale": "165.5339"
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "meanHeightMale": "178.8353",
+    "meanHeightFemale": "165.7237"
+  },
+  {
+    "country": "Australia",
+    "meanHeightMale": "178.7742",
+    "meanHeightFemale": "164.6657"
+  },
+  {
+    "country": "Canada",
+    "meanHeightMale": "178.7496",
+    "meanHeightFemale": "164.7299"
+  },
+  {
+    "country": "Switzerland",
+    "meanHeightMale": "178.7319",
+    "meanHeightFemale": "164.3300"
+  },
+  {
+    "country": "Grenada",
+    "meanHeightMale": "178.6999",
+    "meanHeightFemale": "165.9887"
+  },
+  {
+    "country": "Belarus",
+    "meanHeightMale": "178.6913",
+    "meanHeightFemale": "166.9286"
+  },
+  {
+    "country": "France",
+    "meanHeightMale": "178.6049",
+    "meanHeightFemale": "164.4886"
+  },
+  {
+    "country": "Austria",
+    "meanHeightMale": "178.5244",
+    "meanHeightFemale": "166.9267"
+  },
+  {
+    "country": "Luxembourg",
+    "meanHeightMale": "178.4614",
+    "meanHeightFemale": "165.0690"
+  },
+  {
+    "country": "Cook Islands",
+    "meanHeightMale": "178.3230",
+    "meanHeightFemale": "167.3086"
+  },
+  {
+    "country": "French Polynesia",
+    "meanHeightMale": "178.3164",
+    "meanHeightFemale": "166.5187"
+  },
+  {
+    "country": "United Kingdom",
+    "meanHeightMale": "178.2080",
+    "meanHeightFemale": "163.9391"
+  },
+  {
+    "country": "Romania",
+    "meanHeightMale": "177.8235",
+    "meanHeightFemale": "164.7308"
+  },
+  {
+    "country": "New Zealand",
+    "meanHeightMale": "177.7187",
+    "meanHeightFemale": "164.6600"
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "meanHeightMale": "177.4939",
+    "meanHeightFemale": "165.3027"
+  },
+  {
+    "country": "Niue",
+    "meanHeightMale": "177.1926",
+    "meanHeightFemale": "167.0323"
+  },
+  {
+    "country": "American Samoa",
+    "meanHeightMale": "177.0945",
+    "meanHeightFemale": "167.5515"
+  },
+  {
+    "country": "Barbados",
+    "meanHeightMale": "177.0284",
+    "meanHeightFemale": "165.6638"
+  },
+  {
+    "country": "Jamaica",
+    "meanHeightMale": "176.9742",
+    "meanHeightFemale": "164.3193"
+  },
+  {
+    "country": "United States",
+    "meanHeightMale": "176.9373",
+    "meanHeightFemale": "163.3119"
+  },
+  {
+    "country": "Tunisia",
+    "meanHeightMale": "176.8534",
+    "meanHeightFemale": "161.6855"
+  },
+  {
+    "country": "Russia",
+    "meanHeightMale": "176.6490",
+    "meanHeightFemale": "164.5174"
+  },
+  {
+    "country": "Hungary",
+    "meanHeightMale": "176.5873",
+    "meanHeightFemale": "162.5463"
+  },
+  {
+    "country": "Saint Lucia",
+    "meanHeightMale": "176.4339",
+    "meanHeightFemale": "165.5245"
+  },
+  {
+    "country": "North Macedonia",
+    "meanHeightMale": "176.4252",
+    "meanHeightFemale": "160.8843"
+  },
+  {
+    "country": "Libya",
+    "meanHeightMale": "176.3925",
+    "meanHeightFemale": "162.5617"
+  },
+  {
+    "country": "Turkey",
+    "meanHeightMale": "176.3558",
+    "meanHeightFemale": "161.8020"
+  },
+  {
+    "country": "Morocco",
+    "meanHeightMale": "176.3518",
+    "meanHeightFemale": "161.1809"
+  },
+  {
+    "country": "Senegal",
+    "meanHeightMale": "176.1772",
+    "meanHeightFemale": "163.9241"
+  },
+  {
+    "country": "Spain",
+    "meanHeightMale": "176.1061",
+    "meanHeightFemale": "162.0279"
+  },
+  {
+    "country": "Tokelau",
+    "meanHeightMale": "176.0559",
+    "meanHeightFemale": "166.0754"
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "meanHeightMale": "176.0333",
+    "meanHeightFemale": "163.3798"
+  },
+  {
+    "country": "Israel",
+    "meanHeightMale": "175.9836",
+    "meanHeightFemale": "162.2225"
+  },
+  {
+    "country": "Georgia",
+    "meanHeightMale": "175.9786",
+    "meanHeightFemale": "163.2390"
+  },
+  {
+    "country": "Seychelles",
+    "meanHeightMale": "175.8976",
+    "meanHeightFemale": "162.4656"
+  },
+  {
+    "country": "Brazil",
+    "meanHeightMale": "175.7295",
+    "meanHeightFemale": "162.4110"
+  },
+  {
+    "country": "China",
+    "meanHeightMale": "175.6609",
+    "meanHeightFemale": "163.4641"
+  },
+  {
+    "country": "Iran",
+    "meanHeightMale": "175.6229",
+    "meanHeightFemale": "161.1837"
+  },
+  {
+    "country": "Moldova",
+    "meanHeightMale": "175.5892",
+    "meanHeightFemale": "162.9612"
+  },
+  {
+    "country": "South Korea",
+    "meanHeightMale": "175.5219",
+    "meanHeightFemale": "163.2254"
+  },
+  {
+    "country": "Kazakhstan",
+    "meanHeightMale": "175.4969",
+    "meanHeightFemale": "161.7446"
+  },
+  {
+    "country": "Tonga",
+    "meanHeightMale": "175.1131",
+    "meanHeightFemale": "166.0794"
+  },
+  {
+    "country": "Palestine",
+    "meanHeightMale": "175.0451",
+    "meanHeightFemale": "161.2777"
+  },
+  {
+    "country": "Algeria",
+    "meanHeightMale": "175.0402",
+    "meanHeightFemale": "162.3472"
+  },
+  {
+    "country": "Mali",
+    "meanHeightMale": "175.0154",
+    "meanHeightFemale": "161.9892"
+  },
+  {
+    "country": "Kuwait",
+    "meanHeightMale": "174.9625",
+    "meanHeightFemale": "160.1020"
+  },
+  {
+    "country": "Jordan",
+    "meanHeightMale": "174.8390",
+    "meanHeightFemale": "159.4624"
+  },
+  {
+    "country": "Hong Kong",
+    "meanHeightMale": "174.8349",
+    "meanHeightFemale": "160.6181"
+  },
+  {
+    "country": "Argentina",
+    "meanHeightMale": "174.7550",
+    "meanHeightFemale": "161.2204"
+  },
+  {
+    "country": "North Korea",
+    "meanHeightMale": "174.6881",
+    "meanHeightFemale": "161.2175"
+  },
+  {
+    "country": "Dominican Republic",
+    "meanHeightMale": "174.6498",
+    "meanHeightFemale": "161.2094"
+  },
+  {
+    "country": "Egypt",
+    "meanHeightMale": "174.5695",
+    "meanHeightFemale": "160.8845"
+  },
+  {
+    "country": "Suriname",
+    "meanHeightMale": "174.5144",
+    "meanHeightFemale": "162.2639"
+  },
+  {
+    "country": "Italy",
+    "meanHeightMale": "174.4247",
+    "meanHeightFemale": "161.8102"
+  },
+  {
+    "country": "Samoa",
+    "meanHeightMale": "174.4168",
+    "meanHeightFemale": "163.8160"
+  },
+  {
+    "country": "Bahamas",
+    "meanHeightMale": "174.3971",
+    "meanHeightFemale": "163.4605"
+  },
+  {
+    "country": "Malta",
+    "meanHeightMale": "174.3768",
+    "meanHeightFemale": "162.9505"
+  },
+  {
+    "country": "Turkmenistan",
+    "meanHeightMale": "174.3726",
+    "meanHeightFemale": "162.8271"
+  },
+  {
+    "country": "Portugal",
+    "meanHeightMale": "174.3709",
+    "meanHeightFemale": "161.2271"
+  },
+  {
+    "country": "Uruguay",
+    "meanHeightMale": "174.3233",
+    "meanHeightFemale": "161.5585"
+  },
+  {
+    "country": "Bulgaria",
+    "meanHeightMale": "174.1663",
+    "meanHeightFemale": "164.5764"
+  },
+  {
+    "country": "United Arab Emirates",
+    "meanHeightMale": "174.0773",
+    "meanHeightFemale": "160.5303"
+  },
+  {
+    "country": "Albania",
+    "meanHeightMale": "174.0708",
+    "meanHeightFemale": "162.2286"
+  },
+  {
+    "country": "Costa Rica",
+    "meanHeightMale": "174.0414",
+    "meanHeightFemale": "160.3577"
+  },
+  {
+    "country": "Azerbaijan",
+    "meanHeightMale": "174.0024",
+    "meanHeightFemale": "161.3749"
+  },
+  {
+    "country": "Fiji",
+    "meanHeightMale": "173.9764",
+    "meanHeightFemale": "164.2815"
+  },
+  {
+    "country": "Greenland",
+    "meanHeightMale": "173.8438",
+    "meanHeightFemale": "161.3956"
+  },
+  {
+    "country": "Paraguay",
+    "meanHeightMale": "173.8062",
+    "meanHeightFemale": "159.7622"
+  },
+  {
+    "country": "Iraq",
+    "meanHeightMale": "173.7937",
+    "meanHeightFemale": "158.7487"
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "meanHeightMale": "173.7117",
+    "meanHeightFemale": "162.7824"
+  },
+  {
+    "country": "Armenia",
+    "meanHeightMale": "173.6667",
+    "meanHeightFemale": "159.8502"
+  },
+  {
+    "country": "Cuba",
+    "meanHeightMale": "173.5584",
+    "meanHeightFemale": "160.1349"
+  },
+  {
+    "country": "Venezuela",
+    "meanHeightMale": "173.5337",
+    "meanHeightFemale": "160.0370"
+  },
+  {
+    "country": "Taiwan",
+    "meanHeightMale": "173.5287",
+    "meanHeightFemale": "160.6953"
+  },
+  {
+    "country": "Singapore",
+    "meanHeightMale": "173.4965",
+    "meanHeightFemale": "161.3047"
+  },
+  {
+    "country": "Qatar",
+    "meanHeightMale": "173.2724",
+    "meanHeightFemale": "160.7157"
+  },
+  {
+    "country": "Botswana",
+    "meanHeightMale": "173.1562",
+    "meanHeightFemale": "162.0620"
+  },
+  {
+    "country": "Mauritius",
+    "meanHeightMale": "173.0061",
+    "meanHeightFemale": "158.9428"
+  },
+  {
+    "country": "Chile",
+    "meanHeightMale": "172.8759",
+    "meanHeightFemale": "159.4177"
+  },
+  {
+    "country": "Bahrain",
+    "meanHeightMale": "172.7639",
+    "meanHeightFemale": "158.2908"
+  },
+  {
+    "country": "Cyprus",
+    "meanHeightMale": "172.7486",
+    "meanHeightFemale": "160.5529"
+  },
+  {
+    "country": "Haiti",
+    "meanHeightMale": "172.2291",
+    "meanHeightFemale": "160.5750"
+  },
+  {
+    "country": "Guyana",
+    "meanHeightMale": "172.1502",
+    "meanHeightFemale": "159.5687"
+  },
+  {
+    "country": "Cameroon",
+    "meanHeightMale": "172.1273",
+    "meanHeightFemale": "160.4112"
+  },
+  {
+    "country": "Sudan",
+    "meanHeightMale": "172.0736",
+    "meanHeightFemale": "160.3617"
+  },
+  {
+    "country": "Japan",
+    "meanHeightMale": "172.0628",
+    "meanHeightFemale": "158.5037"
+  },
+  {
+    "country": "Burkina Faso",
+    "meanHeightMale": "171.8936",
+    "meanHeightFemale": "161.3261"
+  },
+  {
+    "country": "Colombia",
+    "meanHeightMale": "171.8529",
+    "meanHeightFemale": "157.9637"
+  },
+  {
+    "country": "Chad",
+    "meanHeightMale": "171.8385",
+    "meanHeightFemale": "162.1242"
+  },
+  {
+    "country": "Oman",
+    "meanHeightMale": "171.6956",
+    "meanHeightFemale": "158.4350"
+  },
+  {
+    "country": "Kyrgyzstan",
+    "meanHeightMale": "171.6648",
+    "meanHeightFemale": "160.2019"
+  },
+  {
+    "country": "Syria",
+    "meanHeightMale": "171.6420",
+    "meanHeightFemale": "159.3795"
+  },
+  {
+    "country": "Thailand",
+    "meanHeightMale": "171.6112",
+    "meanHeightFemale": "159.4177"
+  },
+  {
+    "country": "Nigeria",
+    "meanHeightMale": "171.5505",
+    "meanHeightFemale": "158.1373"
+  },
+  {
+    "country": "Tuvalu",
+    "meanHeightMale": "171.2982",
+    "meanHeightFemale": "163.5701"
+  },
+  {
+    "country": "Republic of the Congo",
+    "meanHeightMale": "171.2319",
+    "meanHeightFemale": "158.7799"
+  },
+  {
+    "country": "Somalia",
+    "meanHeightMale": "171.2174",
+    "meanHeightFemale": "159.8573"
+  },
+  {
+    "country": "Uzbekistan",
+    "meanHeightMale": "170.9422",
+    "meanHeightFemale": "160.2883"
+  },
+  {
+    "country": "Djibouti",
+    "meanHeightMale": "170.7671",
+    "meanHeightFemale": "159.8240"
+  },
+  {
+    "country": "Guinea",
+    "meanHeightMale": "170.6992",
+    "meanHeightFemale": "158.7522"
+  },
+  {
+    "country": "Zimbabwe",
+    "meanHeightMale": "170.6858",
+    "meanHeightFemale": "159.8491"
+  },
+  {
+    "country": "Mongolia",
+    "meanHeightMale": "170.6720",
+    "meanHeightFemale": "159.8935"
+  },
+  {
+    "country": "El Salvador",
+    "meanHeightMale": "170.6697",
+    "meanHeightFemale": "156.3896"
+  },
+  {
+    "country": "Saudi Arabia",
+    "meanHeightMale": "170.6655",
+    "meanHeightFemale": "158.8377"
+  },
+  {
+    "country": "Palau",
+    "meanHeightMale": "170.6244",
+    "meanHeightFemale": "159.5176"
+  },
+  {
+    "country": "Eritrea",
+    "meanHeightMale": "170.6044",
+    "meanHeightFemale": "157.5803"
+  },
+  {
+    "country": "Belize",
+    "meanHeightMale": "170.5235",
+    "meanHeightFemale": "158.1201"
+  },
+  {
+    "country": "Gabon",
+    "meanHeightMale": "170.4815",
+    "meanHeightFemale": "160.0452"
+  },
+  {
+    "country": "Kenya",
+    "meanHeightMale": "170.4553",
+    "meanHeightFemale": "159.4338"
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "meanHeightMale": "170.3700",
+    "meanHeightFemale": "159.8105"
+  },
+  {
+    "country": "Ghana",
+    "meanHeightMale": "170.3047",
+    "meanHeightFemale": "158.8551"
+  },
+  {
+    "country": "Mexico",
+    "meanHeightMale": "170.2864",
+    "meanHeightFemale": "157.9019"
+  },
+  {
+    "country": "Niger",
+    "meanHeightMale": "170.2606",
+    "meanHeightFemale": "159.8149"
+  },
+  {
+    "country": "Panama",
+    "meanHeightMale": "170.1902",
+    "meanHeightFemale": "158.1865"
+  },
+  {
+    "country": "Togo",
+    "meanHeightMale": "170.1359",
+    "meanHeightFemale": "159.1294"
+  },
+  {
+    "country": "Kiribati",
+    "meanHeightMale": "170.0908",
+    "meanHeightFemale": "161.0399"
+  },
+  {
+    "country": "Nicaragua",
+    "meanHeightMale": "169.9128",
+    "meanHeightFemale": "155.6211"
+  },
+  {
+    "country": "Namibia",
+    "meanHeightMale": "169.7457",
+    "meanHeightFemale": "160.2561"
+  },
+  {
+    "country": "South Africa",
+    "meanHeightMale": "169.6258",
+    "meanHeightFemale": "158.5787"
+  },
+  {
+    "country": "Honduras",
+    "meanHeightMale": "169.5905",
+    "meanHeightFemale": "155.1831"
+  },
+  {
+    "country": "Micronesia",
+    "meanHeightMale": "169.5719",
+    "meanHeightFemale": "159.6585"
+  },
+  {
+    "country": "Nauru",
+    "meanHeightMale": "169.5698",
+    "meanHeightFemale": "157.8221"
+  },
+  {
+    "country": "Eswatini",
+    "meanHeightMale": "169.4059",
+    "meanHeightFemale": "158.9214"
+  },
+  {
+    "country": "Malaysia",
+    "meanHeightMale": "169.2035",
+    "meanHeightFemale": "157.0637"
+  },
+  {
+    "country": "Central African Republic",
+    "meanHeightMale": "169.0104",
+    "meanHeightFemale": "159.6510"
+  },
+  {
+    "country": "Vietnam",
+    "meanHeightMale": "168.8948",
+    "meanHeightFemale": "158.4257"
+  },
+  {
+    "country": "Ethiopia",
+    "meanHeightMale": "168.8435",
+    "meanHeightFemale": "157.1513"
+  },
+  {
+    "country": "Uganda",
+    "meanHeightMale": "168.7360",
+    "meanHeightFemale": "158.5280"
+  },
+  {
+    "country": "DR Congo",
+    "meanHeightMale": "168.5966",
+    "meanHeightFemale": "156.3007"
+  },
+  {
+    "country": "Afghanistan",
+    "meanHeightMale": "168.4952",
+    "meanHeightFemale": "156.1131"
+  },
+  {
+    "country": "Angola",
+    "meanHeightMale": "168.4642",
+    "meanHeightFemale": "158.0969"
+  },
+  {
+    "country": "Benin",
+    "meanHeightMale": "168.4403",
+    "meanHeightFemale": "158.4004"
+  },
+  {
+    "country": "Tajikistan",
+    "meanHeightMale": "168.4313",
+    "meanHeightFemale": "158.1218"
+  },
+  {
+    "country": "Gambia",
+    "meanHeightMale": "168.3550",
+    "meanHeightFemale": "161.7282"
+  },
+  {
+    "country": "Vanuatu",
+    "meanHeightMale": "168.2940",
+    "meanHeightFemale": "160.4836"
+  },
+  {
+    "country": "Ivory Coast",
+    "meanHeightMale": "168.2335",
+    "meanHeightFemale": "158.6524"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "meanHeightMale": "168.1773",
+    "meanHeightFemale": "158.0496"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "meanHeightMale": "168.1699",
+    "meanHeightFemale": "158.7194"
+  },
+  {
+    "country": "Bolivia",
+    "meanHeightMale": "168.1020",
+    "meanHeightFemale": "155.5752"
+  },
+  {
+    "country": "Sri Lanka",
+    "meanHeightMale": "168.0746",
+    "meanHeightFemale": "155.8758"
+  },
+  {
+    "country": "Lesotho",
+    "meanHeightMale": "167.9244",
+    "meanHeightFemale": "156.7208"
+  },
+  {
+    "country": "Maldives",
+    "meanHeightMale": "167.8666",
+    "meanHeightFemale": "154.2847"
+  },
+  {
+    "country": "Comoros",
+    "meanHeightMale": "167.7249",
+    "meanHeightFemale": "156.5389"
+  },
+  {
+    "country": "Zambia",
+    "meanHeightMale": "167.6156",
+    "meanHeightFemale": "157.3152"
+  },
+  {
+    "country": "Burundi",
+    "meanHeightMale": "167.3367",
+    "meanHeightFemale": "155.0751"
+  },
+  {
+    "country": "Pakistan",
+    "meanHeightMale": "167.3251",
+    "meanHeightFemale": "154.7706"
+  },
+  {
+    "country": "Ecuador",
+    "meanHeightMale": "167.3197",
+    "meanHeightFemale": "155.2489"
+  },
+  {
+    "country": "Bhutan",
+    "meanHeightMale": "167.0474",
+    "meanHeightFemale": "155.1526"
+  },
+  {
+    "country": "Tanzania",
+    "meanHeightMale": "166.9789",
+    "meanHeightFemale": "156.8863"
+  },
+  {
+    "country": "Peru",
+    "meanHeightMale": "166.7506",
+    "meanHeightFemale": "154.3872"
+  },
+  {
+    "country": "Myanmar",
+    "meanHeightMale": "166.6975",
+    "meanHeightFemale": "154.7140"
+  },
+  {
+    "country": "India",
+    "meanHeightMale": "166.4953",
+    "meanHeightFemale": "155.1782"
+  },
+  {
+    "country": "Sierra Leone",
+    "meanHeightMale": "166.4285",
+    "meanHeightFemale": "157.3356"
+  },
+  {
+    "country": "Brunei",
+    "meanHeightMale": "166.3108",
+    "meanHeightFemale": "154.8975"
+  },
+  {
+    "country": "Indonesia",
+    "meanHeightMale": "166.2577",
+    "meanHeightFemale": "154.3552"
+  },
+  {
+    "country": "Rwanda",
+    "meanHeightMale": "166.0232",
+    "meanHeightFemale": "156.7193"
+  },
+  {
+    "country": "Malawi",
+    "meanHeightMale": "165.6751",
+    "meanHeightFemale": "156.1410"
+  },
+  {
+    "country": "Mauritania",
+    "meanHeightMale": "165.5444",
+    "meanHeightFemale": "160.0617"
+  },
+  {
+    "country": "Liberia",
+    "meanHeightMale": "165.4756",
+    "meanHeightFemale": "156.5414"
+  },
+  {
+    "country": "Cambodia",
+    "meanHeightMale": "165.3497",
+    "meanHeightFemale": "154.7495"
+  },
+  {
+    "country": "Marshall Islands",
+    "meanHeightMale": "165.2644",
+    "meanHeightFemale": "154.7573"
+  },
+  {
+    "country": "Philippines",
+    "meanHeightMale": "165.2327",
+    "meanHeightFemale": "154.1442"
+  },
+  {
+    "country": "Madagascar",
+    "meanHeightMale": "165.1619",
+    "meanHeightFemale": "153.0638"
+  },
+  {
+    "country": "Bangladesh",
+    "meanHeightMale": "165.0815",
+    "meanHeightFemale": "152.3776"
+  },
+  {
+    "country": "Yemen",
+    "meanHeightMale": "164.4164",
+    "meanHeightFemale": "154.7561"
+  },
+  {
+    "country": "Nepal",
+    "meanHeightMale": "164.3638",
+    "meanHeightFemale": "152.3890"
+  },
+  {
+    "country": "Guatemala",
+    "meanHeightMale": "164.3575",
+    "meanHeightFemale": "150.9140"
+  },
+  {
+    "country": "Mozambique",
+    "meanHeightMale": "164.2968",
+    "meanHeightFemale": "155.4210"
+  },
+  {
+    "country": "Papua New Guinea",
+    "meanHeightMale": "163.0980",
+    "meanHeightFemale": "156.8945"
+  },
+  {
+    "country": "Solomon Islands",
+    "meanHeightMale": "163.0694",
+    "meanHeightFemale": "156.7888"
+  },
+  {
+    "country": "Laos",
+    "meanHeightMale": "162.7806",
+    "meanHeightFemale": "153.0991"
+  },
+  {
+    "country": "Timor-Leste",
+    "meanHeightMale": "160.1305",
+    "meanHeightFemale": "152.7123"
+  }
+]
