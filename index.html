@@ -11,35 +11,34 @@
 <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
- 
-<style> 
- @import url(https://www.fonts.com/font/monotype/times-new-roman?QueryFontType=Web&src=GoogleWebFonts);
- 
-</style>
 
-<link rel="stylesheet" href="index.css">  <!-- link with css file -->
+  <style> 
+  @import url(https://www.fonts.com/font/monotype/times-new-roman?QueryFontType=Web&src=GoogleWebFonts);
+  
+  </style>
  
-<div class="wrap">
-    <p class="rubric-launch">To see my Data Science project, click <a class="textLink" href="project"> here</a>.</p> 
-  <!-- access to another link-->
-</div>
- 
+  <link rel="stylesheet" href="index.css">
 
+  
 </head>
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
 
 
-
 <!-- ///////////////////  BODY //////////////////////////////////// -->
 
 <body>
- 
+
 <h1> This is my Portfolio</h1>
- <p> These are the charts I made for my Data Science unit </p>
+
+<div class="wrap">
+  <p1 class="rubric-launch">To see my Data Science project, click <a class="textLink" href="project"> here</a>.</p1> 
+
+</div>
+
+<br>
 
 <!--Vaga embed, with notes for what is going on -->
-<!-- Chart 1 --> 
   <div class="chart" id="firstChart">
 
       <script>
@@ -53,8 +52,8 @@
       </script>
 
   </div>
-  
- <!-- Chart 2 --> 
+
+  <!-- Chart 2 --> 
   <div class="chart" id="chart2">
     
     <script>
@@ -74,19 +73,26 @@
     </script>
   
   </div>
-  
-  
-  <!-- Chart 4 -->
-<div class="chart" id="chart4">
+
+  <br>
+
+  <p3>
+    Task 1 & 2: Building site using GitHub & embedding 3 charts from the repository
+  </p3>
+
+  <hr>
+
+ <!-- Chart 4 -->
+ <div class="chart" id="chart4">
     
   <script>
-    var myChart4 = "chart_API_covid.json";
+    var myChart4 = "chart3_API_covid.json";
     vegaEmbed('#chart4', myChart4);
   </script>
 
-</div> 
-  
-  <!-- Chart 5 -->
+</div>
+
+<!-- Chart 5 -->
 <div class="chart" id="chart5">
     
   <script>
@@ -95,8 +101,16 @@
   </script>
 
 </div> 
- 
- <!-- Chart 6-->
+
+<br>
+
+<p4>
+  Task 3: Hosting data by embedding 2 charts of my own design
+</p4>
+
+<hr>
+
+<!-- Chart 6-->
 <div class="chart" id="chart6">
     
   <script>
@@ -105,8 +119,8 @@
   </script>
 
 </div> 
- 
- <!-- Chart 7-->
+
+<!-- Chart 7-->
 <div class="chart" id="chart7">
     
   <script>
@@ -115,8 +129,16 @@
   </script>
 
 </div> 
- 
- <!-- Chart 8-->
+
+<br>
+
+<p5>
+  Task 4: Editing data by writing JSON by hand 
+</p5>
+
+<hr>
+
+<!-- Chart 8-->
 <div class="chart" id="chart8">
     
   <script>
@@ -136,7 +158,15 @@
 
 </div> 
 
- <!-- Chart 10-->
+<br>
+
+<p6> 
+  Task 5: API driven charts using APIs that I sign up for & gain access
+</p6>
+
+<hr>
+
+<!-- Chart 10-->
 <div class="chart" id="chart10">
     
   <script>
@@ -175,8 +205,16 @@
   </script>
 
 </div> 
- 
- <!-- Chart 14-->
+
+<br>
+
+<p7>
+  Task 6: Fetching using loops in Python to create charts
+</p7>
+
+<hr>
+
+<!-- Chart 14-->
 <div class="chart" id="chart14">
     
   <script>
@@ -185,8 +223,16 @@
   </script>
 
 </div> 
- 
- <!-- Chart 15-->
+
+<br>
+
+<p8>
+  Task 7: Scraping using Python
+</p8>
+
+<hr>
+
+<!-- Chart 15-->
 <div class="chart" id="chart15">
     
   <script>
@@ -198,11 +244,18 @@
 
 <br>
 
-<p2> It was said that depression has increased during pandemic and the chart above clearly support this. 
+<p9> It was said that depression has increased during pandemic and the chart above clearly support this. 
  Before 2020, 10% of the people aged 16-39 suffered symptoms of depression but spiked to the highest in June 2021 at 33%. 
   Although it has been lowered by it is evident that it still remains highest than pre-covid times.
    </p2>
 
+<br>
+
+<p10>
+  Task 8: Using a chart to support/refute an argument presented in a economic conference
+</p10>
+
+<hr>
 <!-- Chart 16-->
 <div class="chart" id="chart16">
     
@@ -222,6 +275,41 @@
   </script>
 
 </div> 
+
+<br>
+
+<p11>
+  Task 9: Creating charts using correlation and regression
+</p11>
+
+<hr>
+
+<!-- Chart 18-->
+<div class="chart" id="chart18">
+    
+  <script>
+    var myChart18 = "chart_interactive.json";
+    vegaEmbed('#chart18', myChart18);
+  </script>
+
+</div> 
+
+<!-- Chart 19-->
+<div class="chart" id="chart19">
+    
+  <script>
+    var myChart19 = "chart_export.json";
+    vegaEmbed('#chart19', myChart19);
+  </script>
+
+</div> 
+
+<br>
+
+<p12>
+  Task 10: Interactive charts with tooltips and sliders
+</p12>
+
 
 </body>
 
