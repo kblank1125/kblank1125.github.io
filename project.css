@@ -1,0 +1,114 @@
+
+body{
+    background-color: rgb(19,40,71);
+    max-width:450px;
+    margin: auto;
+}
+
+h1{
+    color:rgb(230, 89, 187);
+    text-shadow:2px 2px 5px black;
+    font-family: 'Times New Roman';
+    animation: blink 1s linear infinite;
+}
+@keyframes blink{
+    50%{
+        opacity: .3;
+    }
+    80%{
+        opacity: .7;
+    }
+}
+
+
+
+h2{
+    color:rgb(132, 222, 245);
+    font-family: 'Arial';
+    animation: wave 1s ease-in-out infinite;
+    font-size: large;
+}
+@keyframes wave{
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+    40%, 100%{
+        transform: translateY(0px);
+    }
+}
+
+
+p1, p2, p3, p4, p5, p6, p8, p9{
+    color:rgb(247, 243, 243);
+    font-family: 'Times New Roman';
+}
+
+p7{
+    color: red;
+    font-family: 'Times New Roman';
+    
+}
+
+p10{
+    color: white;
+    font-family: 'Times New Roman';
+    font-style: oblique; 
+    text-align: center;  
+}
+
+p11{
+    color:rgb(247, 243, 243);
+    font-family: 'Times New Roman';
+    font-size: 12px;
+}
+
+::-webkit-scrollbar
+{
+    width: 0;
+}
+#scrollPath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+}
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate 
+{
+    0%,100%{
+        filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.chart{
+    background-color: white;
+    width:350px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+
+
+
+
+
