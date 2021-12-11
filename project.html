@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- Richard Davies, Data Science 2021 -->
+<!-- Isaac's project, Data Science 2021 -->
 
 
 <!-- ///////////////////  HEAD //////////////////////////////////// -->
@@ -8,9 +8,12 @@
 <head>
 
 <!--The next three lines allow the Vega embed-->
-<script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+<link rel="stylesheet" href="project.css">
+
 
 </head>
 
@@ -19,8 +22,181 @@
 <!-- ///////////////////  BODY //////////////////////////////////// -->
 
 <body>
+<!--Scrolling bar-->
+  <div id="progressbar"></div>
+  <div id="scrollPath"></div>
+<h1> UK's Productivity Puzzle & Immigration </h1> <!--Blinking-->
+<h2> Data Science Project by Cheuk Hin Fung</h2> <!-- Jumping-->
 
-<h1> This is my project for Data Science </h1>
+<p10> This project introduces the reader to the UK's productivity puzzle and shows how immigration would be 
+  a suitable solution. 
+</p10>
+
+<br>
+<hr>
+<br>
+
+<!--Part 1: Productivity puzzle-->
+<p1>
+  Productivity of a country is key for its success as it has impacts on firms and individuals on the long run.
+  The UK's productivity puzzle indicates that UK's productivity has been flat-lining after the 2008 financial crisis.
+  It is crucial to be aware of this issue as this plateau means that the living standards in the UK has not been improved
+  and it is necessary to find potential causes and solutions.
+  The chart below shows UK's productivity using Output per hour from 1970. <br> 
+</p1>
+
+<!-- Chart below shows productivity in the UK with slider so audience can interact can change the start point-->
+
+<div class="chart" id="chart1">
+  
+  <script>
+    var myChart1 = "chart_output_full.json";
+    vegaEmbed('#chart1', myChart1);
+  </script>
+
+</div>
+
+<br> <!-- To put a line break between charts or paragraphs-->
+<br>
+
+<p2>
+  In the chart below, one can see that the slope began to flat-line after the red vertical line (2008 crisis). 
+   
+</p2>
+
+<!-- productivity chart focus on 2008-->
+
+<div class="chart" id="chart2">
+    
+  <script>
+    var myChart2 = "chart_output.json";
+    vegaEmbed('#chart2', myChart2);
+    
+  </script>
+
+
+</div>
+
+<br>
+<br>
+
+<p3>
+  Comparing to the financial crisis in 2000, the effect of the 2008 crisis is much serious. In the chart below, 
+  we can see that there is no long-term plateau after 2000 (red vertical line). 
+</p3>
+
+
+<!-- productivity chart focus on 2000-->
+
+<div class="chart" id="chart3">
+    
+  <script>
+    var myChart3 = "chart_output_2000.json";
+    vegaEmbed('#chart3', myChart3);
+  </script>
+
+</div>
+
+<br>
+<br>
+
+
+<p4> This is what economists are interested about; There must be a reason for such plateau after 2008. 
+  There are several factors: <ol>
+    <li>Aftershocks from the 2008 financial crisis</li>
+    <li>Changes in monetary and fiscal policies</li>
+    <li>Slowing innovation</li>
+  </ol>
+  However, these have been critised by economists. One must note that the scarring effect is quite temporary as credit availability has been eased years later.
+  In addition, many firms have been adapting new technology. These have led to a steeper but insignificant slope. 
+  Therefore, economists are still looking for the major reason(s).
+</p4>
+
+
+<br>
+<hr>
+
+<!--Part 2: Look at immigration as a solution to the puzzle-->
+<p5>
+  Similarly, economists are looking for solutions to this plateau of productivity. One solution they propose is the <p7> introduction of migrant workers</p7>. 
+  In the chart below, we can see that UK's immigration level has generally increased since 2008 which suggests that the country 
+  attracts many opportunities for investments and jobs which would, as a result, boost the economy. 
+</p5>
+
+<br>
+
+<div class="chart" id="chart4">
+    
+  <script>
+    var myChart4 = "chart_migration.json";
+    vegaEmbed('#chart4', myChart4);
+  </script>
+
+</div>
+<!-- This is the only chart where I have to manually edit data since it came in an Excel file with description.-->
+ 
+<br>
+<br>
+
+<p6>
+  Although immigration level has increased, does it mean that they are actually boosting the economy? 
+  Is it easy for migrants to look for jobs? To do so, we can look at the employment rate in the UK. 
+</p6>
+
+<div class="chart" id="chart5">
+    
+  <script>
+    var myChart5 = "chart_employment.json";
+    vegaEmbed('#chart5', myChart5);
+  </script>
+
+</div>
+
+<br>
+
+<p8>
+  We can see that in the recent year, UK's employment rate has been increasing and it is further supported in the next chart. 
+  The employment level for non-UK citizen is also growing which means that more are working in the country, especially in the low paying jobs such as agricultural sector
+  which are currently lacking workers.
+</p8>
+
+<!-- chart showing employment level of immigrants-->
+
+<div class="chart" id="chart6">
+    
+  <script>
+    var myChart6 = "chart_em_Non.json";
+    vegaEmbed('#chart6', myChart6);
+  </script>
+
+</div>
+
+<br>
+<br>
+
+<p9>
+  In conclusion, immigration can be a good solution to such dilemma but resolving it takes various more approaches which 
+  requires changes in policies by both the governments and firms. 
+</p9>
+
+<br>
+<br>
+
+<p11> Notes: Data is sourced mainly from ONS using API's and CSV's which are quite simple and apt for creating 
+  charts using JavaScript. Only simple data cleaning was needed filtering the time period wanted either using in-hand JSON code or 
+  manaully using Excel. </p11>
+
+
+
+
+<!-- (1) the aims of your project;
+   (2) the data you used, how you accessed it, including notes on automation/replication; 
+   (3) challenges in data cleaning and/or analysis, and the tools you used to overcome them; 
+   (4) your conclusions-->
+
+
+
+
 
 </body>
 
