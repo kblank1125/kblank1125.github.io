@@ -1,0 +1,75 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Relationship between Height in cm",
+        "subtitle":"Source: World Population Review",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+  
+    "height":300,
+    "width":280,
+  
+    "layer":[
+      {"data": {"url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_height.json"},
+  
+    "mark":{
+      "type": "point",
+      "filled": true,
+      "color":"skyblue"
+    },
+    "encoding": {
+      "x": {"field": "meanHeightFemale", "type": "quantitative", "scale":{"domain":[145,175]}, "title":"Female"},
+      "y": {"field": "meanHeightMale", "type": "quantitative","title":"Male","scale":{"domain":[150,190]}}
+      }},
+  
+    {
+      "data": {"url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_height.json"},
+  
+      "mark": {
+          "type": "line",
+          "color": "dimgrey"
+        },
+        "transform": [
+          {
+            "regression": "meanHeightFemale",
+            "on": "meanHeightMale"
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "meanHeightFemale",
+            "type": "quantitative"
+          },
+          "y": {
+            "field": "meanHeightMale",
+            "type": "quantitative"
+          }
+        }
+    },
+    {
+      "data": {"url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_height.json"},
+  
+        "transform": [
+          {
+            "regression": "meanHeightFemale",
+            "on": "meanHeightMale",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "firebrick",
+          "x": "width",
+          "align": "right",
+          "y": -5
+        },
+        "encoding": {
+          "text": {"type": "nominal", "field": "R2"}
+        }
+      }] 
+  }
+  

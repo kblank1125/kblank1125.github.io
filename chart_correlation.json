@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Relationship between open & close price",
+        "subtitle":"Using bitcoin in GBP",
+        "subtitleFontStyle":"italic",
+        "subtitleFontSize":10,
+        "anchor": "start",
+        "color": "black"
+      },
+    
+    "height":300,
+    "width":280,
+  
+    "data": {"url": "https://rest.coinapi.io/v1/ohlcv/BTC/GBP/history?period_id=12HRS&time_start=2021-10-01T00:00:00&limit=100&include_empty_items=false&apikey=0C9F4726-643D-472A-8379-45CC2490BB76"},
+  
+    "mark": "circle",
+    "encoding": {
+      "x": {"field": "price_open", "type": "quantitative", "scale":{"domain":[30000,50000]}, "title":"Opening Price"},
+      "y": {"field": "price_close", "type": "quantitative","scale":{"domain":[30000,50000]}, "title":"Closing price"},
+      "color":{"value":"blue"}
+      }
+  }
