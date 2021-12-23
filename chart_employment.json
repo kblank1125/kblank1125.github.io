@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "description": "Area chart charing employment level",
+
+    "title": {
+      "text": "Employment rate in the UK",
+      "subtitle":"starting from 2008",
+      "subtitleFontStyle":"italic",
+      "subtitleFontSize":10,
+      "anchor": "start",
+      "color": "black"
+    },
+  
+    "height":300,
+    "width":280,
+
+    "data": {
+      "url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_MM23-LF24.json",
+      "format":{
+        "type":"json",
+        "property":"quarters"}},
+
+    "transform": [
+      {"filter":{
+        "field": "year",
+        "range":[
+          {"year":2008},
+          {"year":2020}
+        ]
+      }}],
+
+       
+    "mark":{
+      "type": "line",
+      "color": "turquoise",
+      "strokeWidth":2
+      },
+
+    "encoding": {
+      "x": {"field": "year", "type": "temporal", "title" :"Year"},
+      "y": {"field": "value", "type": "quantitative", "title": null,"aggregate":"mean", "scale":{"domain":[60,80]}}
+    }
+    
+}

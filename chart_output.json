@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "UK's Output per Hour",
+  "title":{
+         "text": "UK's productivity",
+          "subtitle":"Index 2019=100",
+          "subtitleFontStyle":"italic",
+          "subtitleFontSize":10,
+          "anchor": "start",
+          "color": "black"
+        },
+
+  "params": [
+    {"name": "strokeDash",
+      "value": [3]}
+  ],
+
+  "layer":[{
+    "data": {"url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/data_MM23-LZVB.json",
+  "format":{
+    "type": "json",
+    "property": "quarters"
+  }},
+
+  "transform": [
+    {"filter":{
+      "field": "year",
+      "range":[
+        {"year": 2000},
+        {"year": 2020}
+      ]}}
+
+    
+  ],
+
+
+  "mark":{
+    "type": "line",
+    "color":"darkviolet"},
+
+  "encoding": {
+    "x": {"field": "year", "type": "temporal", "title":"Year (2000 - 2020)"},
+    "y": {"field": "value", "type": "quantitative", "scale":{"domain":[60,110]}, "aggregate":"average", "title":"Output per Hour", "axis":{"grid": false}},
+    "tooltip": [
+      {"field": "year", "type": "temporal", "title": "year"},
+      {
+        "field": "value",
+        "aggregate":"average",
+        "type": "quantitative",
+        "title": "Average productivity",
+        "format": ",.0f"
+      }
+    ]
+}},
+
+{"data":{"values":{"year":"2008"}},
+  "mark":{
+    "type":"rule",
+    "strokeDash": {"expr": "strokeDash"}},
+
+"encoding": {
+  "x":{"field":"year", "type": "temporal"},
+  "color": {"value": "red"}
+  }
+}]   
+} 

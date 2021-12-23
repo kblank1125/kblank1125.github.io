@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Yearly average migration in the UK",
+    "title":{
+           "text": "Net migration in the UK",
+            "subtitle":"Average in thousands",
+            "subtitleFontStyle":"italic",
+            "subtitleFontSize":10,
+            "anchor": "start",
+            "color": "black"
+          },
+    "data": {
+      "url": "https://raw.githubusercontent.com/kblank1125/kblank1125.github.io/main/Migration.csv",
+      "format":{"type": "csv"
+      }
+    },
+    "mark":{
+      "type": "bar",
+      "color":"orange",
+      "width":{"band": 0.7}
+      },
+    "encoding": {
+      "x": {"timeUnit":"year","field": "Year", "type": "nominal", "axis": {"labelAngle": -60}, "title":"Year"},
+      "y": {"field": "Average", "type": "quantitative","title":"Net flow (000's)"}
+    }
+  }
+  
