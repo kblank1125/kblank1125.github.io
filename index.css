@@ -33,6 +33,39 @@ p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12{
     border-color: black;
 }
 
+#chart9{background-color: white;
+    width:375px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#firstChart {background-color: white;
+    width:375px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#chart14, #chart18{background-color: white;
+    width:420px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+#chart16, #chart19{background-color: white;
+    width:380px;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+}
+
+
 a:link {
     color: rgb(235, 64, 52);
 }
@@ -45,3 +78,5 @@ a:hover {
 a:active{
     color: rgb(15, 245, 252)
 }
+
+
